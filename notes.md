@@ -104,3 +104,5 @@ $.post('url goes here')
     .catch(err => console.log(err))
 $.getJSON() //yu can use any ajax method to request data from file paths or URL/AJAX
     .then(data => console.log(data))
+
+    #practice with pokemon API for now to get familiar

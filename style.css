@@ -1,68 +1,118 @@
-/* MOBILE VIEW 800px MAX-HEIGHT*/
-*{
-    max-width: 480px;
-    max-height: 800px;
-    background-color: gray;
-    border: 2px solid black;
-}
-
-p{
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
+body {
+    background-color: beige;
+    max-width: 768px;
 }
 
 #a {
-    border-style: solid;
-    width: 470px;
-    height: 50px;
+    width: 100%;
+    height: 2pc;
+    background-color: brown;
+    border: solid 1px black;
 }
-
 #b {
-    height: 100px;
-    width: 465px;
+    position: relative;
+    width: 100%;
+    height: 4pc;
+    background-color: brown;
+    border: solid 1px black;
 }
-
 #c {
-    height: 80px;
-    width: 460px;
+    position: relative;
+    width: 100%;
+    height: 3pc;
+    background-color: brown;
+    border: solid 1px black;
 }
-
 #d {
-    height: 80px;
-    width: 460px;
-} 
-
-#e {
-    width: 230px;
-    height: 180px;
-    float: left;
+    position: relative;
+    width: 100%;
+    height: 3pc;
+    background-color: brown;
+    border: solid 1px black;
 }
-
-#f {
-    width: 230px;
-    height: 180px;
+#e, #f, #g, #h {
+    position: static;
+    display: inline-block;
+    width: 48.5%;
+    height: 6pc;
+    background-color: brown;
+    border: solid 1px black;
 }
-
-#g {
-    width: 230px;
-    height: 180px;
-    float: right;
-}
-
-#h{
-    width: 230px;
-    height: 180px;
-}
-
-
 #i {
-    width: 465px;
-    height: 60px;
+    position: static;
+    width: 100%;
+    height: 2pc;
+    background-color: brown;
+    border: solid 1px black;
 }
 
-/* section {
-    border-color: white;
-    border-style: solid;
-} */
-
+@media all and (min-width: 480px) {
+    html {
+     background-color: bisque;
+    }
+    
+   #a {
+      position: relative;
+      width: 100%;
+      height: 100px;
+      background-color: brown;
+      border: solid 1px black;  
+   }
+    
+   #b {
+      position: relative;
+      float: left;
+      width: 18%;
+      height: 565px;
+      background-color: brown;
+      border: solid 1px black;
+    }
+    
+   .row-cd {
+      position: relative;
+      width: 82%;
+      height: 200px;
+      background-color: brown;
+      border: solid 1px black;
+      margin-left: 18%;
+    }
+    
+   #c,
+    #d {
+      display: inline-block;
+      position: relative;
+      width: 49%;
+      height: 200px;
+      border: solid 1px black;
+    
+   }
+    
+   .row-efgh {
+      position: relative;
+      width: 82%;
+      height: 200px;
+      background-color: brown;
+      border: solid 1px black;
+      margin-left: 18%;
+    }
+    
+   #e, #f, #g, #h {
+      display: inline-block;
+      position: relative;
+      width: 23%;
+      height: 200px;
+      border: solid 1px black;
+      margin: 0%;
+      padding: 0%;
+    }
+    
+   #i {
+      position: relative;
+      width: 82%;
+      height:10pc;
+      background-color: brown;
+      border: solid 1px black;
+      margin-left: 18%;
+    }
+    
+}

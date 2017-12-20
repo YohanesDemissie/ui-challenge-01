@@ -101,6 +101,7 @@
    */
   
   a {
+    background-color: transparent; /* 1 */
     -webkit-text-decoration-skip: objects; /* 2 */
   }
   
@@ -158,8 +159,8 @@
    */
   
   mark {
-    /* background-color: #ff0;
-    color: #000; */
+    background-color: #ff0;
+    color: #000;
   }
   
   /**
@@ -320,7 +321,7 @@
   
   legend {
     box-sizing: border-box; /* 1 */
-    /* color: inherit; 2 */
+    color: inherit; /* 2 */
     display: table; /* 1 */
     max-width: 100%; /* 1 */
     padding: 0; /* 3 */

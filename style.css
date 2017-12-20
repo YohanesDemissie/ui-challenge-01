@@ -1,0 +1,25 @@
+/* MOBILE VIEW */
+*{
+    width: 480px;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+header {
+    border-style: solid;
+    width: 480px;
+    height: 75px;
+}
+
+#b {
+    height: 150px;
+}
+
+#c {
+    height: 125px;
+}
+
+#d {
+    height: 125px;
+} 
+

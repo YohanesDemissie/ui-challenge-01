@@ -1,25 +1,68 @@
-/* MOBILE VIEW */
+/* MOBILE VIEW 800px MAX-HEIGHT*/
 *{
-    width: 480px;
+    max-width: 480px;
+    max-height: 800px;
     background-color: gray;
     border: 2px solid black;
 }
 
-header {
+p{
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#a {
     border-style: solid;
-    width: 480px;
-    height: 75px;
+    width: 470px;
+    height: 50px;
 }
 
 #b {
-    height: 150px;
+    height: 100px;
+    width: 465px;
 }
 
 #c {
-    height: 125px;
+    height: 80px;
+    width: 460px;
 }
 
 #d {
-    height: 125px;
+    height: 80px;
+    width: 460px;
 } 
+
+#e {
+    width: 230px;
+    height: 180px;
+    float: left;
+}
+
+#f {
+    width: 230px;
+    height: 180px;
+}
+
+#g {
+    width: 230px;
+    height: 180px;
+    float: right;
+}
+
+#h{
+    width: 230px;
+    height: 180px;
+}
+
+
+#i {
+    width: 465px;
+    height: 60px;
+}
+
+/* section {
+    border-color: white;
+    border-style: solid;
+} */
 
